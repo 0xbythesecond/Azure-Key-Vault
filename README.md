@@ -1,5 +1,7 @@
 # Azure-Key-Vault
 
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Key%20Vault%20Diagram.png?raw=true" height="100%" width="100%" alt="Key Vault Diagram"/>
+
 <!-- <a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons">C sharp icons created by Iconika - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/password" title="password icons">Password icons created by Freepik - Flaticon</a>-->
 
