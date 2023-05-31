@@ -150,7 +150,7 @@ In this exercise, we will enable a client application to access the Azure SQL Da
     
 Client Secret  
     
- ![placeholder](https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-network-placeholder-png-image_3416659.jpg)  
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/New%20Client%20Secret%20(duration).png?raw=true" height="60%" width="60%" alt="create client secret"/>  
     
   >**Note**: Record this value. You will need it in the next task.
     
