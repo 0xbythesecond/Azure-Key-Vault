@@ -42,6 +42,29 @@ In this exercise, we will deploy an Azure virtual machine (VM) and an Azure SQL 
 
   >**Note**: The deployment may take around 20-25 minutes to complete. 
   
+In the Azure portal, in the Search resources, services, and docs text box at the top of the Azure portal page, type Resource groups and press the Enter key.
+
+- On the Resource groups blade, in the list of resource group, click the AZ500LAB10 (or other name you chose earlier for the resource group) entry.
+
+- On the Resource Group blade, click the entry representing the newly created Key Vault.
+
+- On the Key Vault blade, in the Overview section, click Access Policies and then click + Create.
+
+- On the Create an access policy blade, specify the following settings (leave all others with their default values):
+
+|Setting	| Value |
+| --------- |-------- |  
+|Configure from template (optional) |	Key, Secret, & Certificate Management|
+|Key permissions |	click Select all resulting in total of 9 selected permissions|
+|Key permissions/Cryptographic Operations |	click Sign resulting in total of 1 selected permissions|
+|Secret permissions |	click Select all resulting in total of 7 selected permissions|
+|Certification permissions |	click Select all resulting in total of 15 selected permissions|
+|Select principal |	click None selected, on the Principal blade, select your user account, and click Next|
+|Application (optional) |	click Next|
+|Review + create |	click Create|
+  
+  >**Note**: The previous Review + create operation returns to the Access policies page that lists Application, Email, Key Permissions, Secret Permissions, and Certificate Permissions.  
+  
   </details>
   
   #
@@ -70,19 +93,6 @@ In this exercise, we will create and configure an Azure Key Vault resource. We w
 - Take note of the Key Vault name and URI.<br />
   
   >**Note**: The output of the last command will display the vault name and the vault URI. The vault URI is in the format `https://<vault_name>.vault.azure.net/`
-  
-- In the Azure portal, navigate to the Key Vault resource and configure access policies to allow key, secret, and certificate management.<br />
-  
-|Setting |	Value|
-|------- |--------|  
-|Configure from template (optional) |	Key, Secret, & Certificate Management|
-|Key permissions |	click Select all resulting in total of 9 selected permissions|
-|Key permissions/Cryptographic Operations	| click Sign resulting in total of 1 selected permissions|
-|Secret permissions |	click Select all resulting in total of 7 selected permissions|
-|Certification permissions |	click Select all resulting in total of 15 selected permissions|
-|Select principal |	click None selected, on the Principal blade, select your user account, and click Next|
-|Application (optional) |	click Next|
-|Review + create |	click Create|
   
 - Add a key to the Key Vault using the PowerShell command provided and verify its creation.<br />
   
@@ -309,6 +319,8 @@ Server=tcp:sqlserverm3ywpe4yaiydo.database.windows.net,1433;Initial Catalog=medi
    1. In the Visual Studio window, in the Program.cs pane, in line 16, replace the <client id noted earlier> placeholder with the value of Application (client) ID of the registered app you recorded earlier in the lab.
 
    2. In the Visual Studio window, in the Program.cs pane, in line 17, replace the <key value noted earlier> placeholder with the the value of Key1 of the registered app you recorded earlier in the lab.
+    
+ <img src="https://github.com/0xbythesecond/Azure-Key-Vault/assets/23303634/7f46700f-ec71-4fda-9870-7b2abb0f13ef" height="80%" width="80%" alt="all id"/>
 
    3. In the Visual Studio console, click the Start button to initiate the build of the console application and start it.
 
@@ -319,8 +331,18 @@ Server=tcp:sqlserverm3ywpe4yaiydo.database.windows.net,1433;Initial Catalog=medi
    6. In the Object Explorer pane, right-click the medical database and, in the right-click menu, click New Query.
 
    7. From the query window, run the following query to verify that the data that loaded into the database from the console app is encrypted.
+    
+ ```sql
+ SELECT FirstName, LastName, SSN, BirthDate FROM Patients;
+ ```   
 
+Switch back to the console application where you are prompted to enter a valid SSN. This will query the encrypted column for the data. At the Command Prompt, type the following and press the Enter key:
 
+```
+999-99-0003
+```
+    
+  >**Note**: Verify that the data returned by the query is not encrypted.
     
    
 
