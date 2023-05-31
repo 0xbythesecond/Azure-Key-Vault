@@ -187,6 +187,10 @@ Set-AZKeyVaultAccessPolicy -VaultName $kvName -ResourceGroupName AZ500LAB10 -Ser
   >**Note**: When you use the connection string, make sure to replace the {your_password} placeholder with the password that you configured with the deployment in Exercise 1.
     
 - Log on to the Azure VM that was deployed in Exercise 1, which has Visual Studio 2019 and SQL Server Management Studio 2018 installed.<br />
+    
+In the Object Explorer pane, right-click the medical database and click New Query.
+
+Paste the following code into the query window and click Execute. This will create a Patients table.    
    
 ```sql    
    CREATE TABLE [dbo].[Patients](
@@ -201,8 +205,10 @@ Set-AZKeyVaultAccessPolicy -VaultName $kvName -ResourceGroupName AZ500LAB10 -Ser
     [State] [char](2) NULL,
     [BirthDate] [date] NOT NULL 
  PRIMARY KEY CLUSTERED ([PatientId] ASC) ON [PRIMARY] );  
-```    
-  
+``` 
+    
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Execute%20SQL%20Query.png?raw=true" height="60%" width="60%" alt="execute sql query"/>
+    
   After the table is created successfully, in the Object Explorer pane, expand the medical database node, the tables node, right-click the dbo.Patients node, and click Encrypt Columns.
 
   >**Note**: This will initiate the Always Encrypted wizard.
