@@ -102,7 +102,7 @@ Get-AZKeyVaultKey -VaultName $kv.VaultName
  $key.key.kid  
  ``` 
   
- ![place holder](https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-network-placeholder-png-image_3416659.jpg) 
+ <img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Vault%20Name%20from%20PowerShell%20Command.png?raw=true" height="80%" width="80%" alt="vault name from powershell"/>
   
   >**Note**: You can reference any key by using the key identifier. To get the most current version, reference `https://<key_vault_name>.vault.azure.net/keys/MyLabKey` or get the specific version with: `https://<key_vault_name>.vault.azure.net/keys/MyLabKey/<key_version>`
   
