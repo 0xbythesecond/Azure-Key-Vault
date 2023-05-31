@@ -49,6 +49,8 @@ In the Azure portal, in the Search resources, services, and docs text box at the
 - On the Resource Group blade, click the entry representing the newly created Key Vault.
 
 - On the Key Vault blade, in the Overview section, click Access Policies and then click + Create.
+  
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Create%20Access%20Policies%20for%20the%20Azure%20Key%20Vault.png?raw=true" height="70%" width="70%" alt="create policy"/>  
 
 - On the Create an access policy blade, specify the following settings (leave all others with their default values):
 
