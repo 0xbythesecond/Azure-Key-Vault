@@ -295,7 +295,7 @@ SELECT FirstName, LastName, SSN, BirthDate FROM Patients;
 ``` 
     
 - Build and run the application to see how Azure Key Vault is used to encrypt and decrypt data in the Azure SQL database.<br />
-    - Minimize the RDP session to your Azure virtual machine, then navigate to \Allfiles\Labs\10\program.cs, open it in Notepad, and copy its content into Clipboard.
+    - Minimize the RDP session to your Azure virtual machine, then navigate to [program file](https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/program.cs), open it in Notepad, and copy its content into Clipboard.
 
     - Return to the RDP session, and in the Visual Studio console, in the Solution Explorer window, click Program.cs and replace its content with the code you copied into Clipboard.
 
