@@ -218,6 +218,8 @@ Paste the following code into the query window and click Execute. This will crea
 On the Introduction page, click Next.
 
 On the Column Selection page, select the SSN and Birthdate columns, set the Encryption Type of the SSN column to Deterministic and of the Birthdate column to Randomized, and click Next.
+    
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Encrypt%20Columns%20Selection%20(dbo.Patients).png?raw=true" height="60%" width="60%" alt="encrypt ssn and birthday"/>    
 
   >**Note**: While performing the encryption if any error thrown like Exception has been thrown by the target of an innvocation related to Rotary(Microsoft.SQLServer.Management.ServiceManagement) then make sure the Key Permission’s values of Rotation Policy Operations are unchecked, if not in the Azure portal navigate to the Key Vault » Access Policies » Key Permissions » Uncheck all the values under the Rotation Policy Operations » Under Privileged Key Operations » Uncheck Release.
 
