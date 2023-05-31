@@ -1,14 +1,15 @@
 # Azure-Key-Vault
 
-<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Key%20Vault%20Diagram.png?raw=true" height="100%" width="100%" alt="Key Vault Diagram"/>
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Key%20Vault%20Diagram%20(2).png?raw=true" height="100%" width="100%" alt="Key Vault Diagram"/>
 
 <!-- <a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons">C sharp icons created by Iconika - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/password" title="password icons">Password icons created by Freepik - Flaticon</a>-->
 
 ## Introduction
+In this lesson, we will learn how to create a proof of concept application that utilizes Azure SQL Database's Always Encrypted functionality. We will store the encryption keys and secrets in Azure Key Vault and register the application in Azure Active Directory to enhance security.
 
 ## Objective
-In this lesson, we will learn how to create a proof of concept application that utilizes Azure SQL Database's Always Encrypted functionality. We will store the encryption keys and secrets in Azure Key Vault and register the application in Azure Active Directory to enhance security. The lesson will cover the following exercises:
+By storing encryption keys and secrets in Azure Key Vault and registering the application in Azure Active Directory, you will enhance the security of your application. The lesson includes exercises on deploying the base infrastructure from an ARM template, configuring the Key Vault resource with a key and a secret, setting up an Azure SQL database and a data-driven application, and demonstrating the use of Azure Key Vault in encrypting the Azure SQL database. Through these exercises, you will gain hands-on experience in implementing secure data encryption and key management techniques using Azure services.The lesson will cover the following exercises:
 
 - Exercise 1: Deploy the base infrastructure from an ARM template
 - Exercise 2: Configure the Key Vault resource with a key and a secret
@@ -355,8 +356,4 @@ Switch back to the console application where you are prompted to enter a valid S
    
 
 ## Reflection:
-In this lesson, we have learned how to create a proof of concept application that utilizes Azure SQL Database's Always Encrypted functionality with the support.
-
-
-
-
+You've just unlocked the secrets of secure application development in the magical realm of Azure. With Azure SQL Database's Always Encrypted functionality, you now possess the power to protect your precious data from prying eyes. By entrusting your encryption keys and secrets to Azure Key Vault, you've built an impregnable fortress for your application's security. And let's not forget the grand ceremony of registering your application in Azure Active Directory, where it joins the league of mighty guardians. Throughout the mystical exercises, you've mastered the ancient art of deploying infrastructure with ARM templates, configuring Key Vaults with keys and secrets, and conjuring Azure SQL databases with data-driven enchantments. But the pinnacle of your journey lies in the thrilling demonstration of Azure Key Vault's prowess, encrypting and decrypting data with grace and finesse. With your newfound skills, you're now armed to venture forth and defend your kingdom against the lurking threats of the digital realm. So go forth, my brave Azure apprentice, and may the codes be forever in your favor!
