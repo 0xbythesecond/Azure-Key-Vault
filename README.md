@@ -124,7 +124,7 @@ Get-AZKeyVaultKey -VaultName $kv.VaultName
   Get-AZKeyVaultSecret -VaultName $kv.VaultName
 ```
   
-![place holder](https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-network-placeholder-png-image_3416659.jpg)  
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Secret%20Name%20SQLPassword.png?raw=true" height="80%" width="80%" alt="Secret SQL Password Name"/>
   
   </details> 
   
