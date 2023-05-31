@@ -262,9 +262,10 @@ In this exercise, we will demonstrate the use of Azure Key Vault in encrypting t
 
     - In the list of project templates, search for Console App (.NET Framework), in the list of results, click Console App (.NET Framework) for C#, and click Next.
 
-<img src="" height="60%" width="60%" alt="console app selection"/>    
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Create%20a%20New%20Project%20NET%20Framework%20(Visual%20Studio).png?raw=true" height="60%" width="60%" alt="console app selection"/>
     
-    - On the Configure your new project page, specify the following settings (leave other settings with their default values), then click Create:
+    
+   - On the Configure your new project page, specify the following settings (leave other settings with their default values), then click Create:
 
 | Setting	| Value |
 |-------- | ------ |    
