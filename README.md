@@ -231,6 +231,8 @@ On the Run Settings page, click Next.
 
 On the Summary page, click Finish to proceed with the encryption. When prompted, sign in again by using the same user account you used to provision the Azure Key Vault instance earlier in this lab.
 
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Always%20Encrypted%20Results.png?raw=true" height="60%" widht="60%" alt="results for always encrypted"/>    
+
 Once the encryption process is complete, on the Results page, click Close.
 
 In the SQL Server Management Studio console, in the Object Explorer pane, under the medical node, expand the Security and Always Encrypted Keys subnodes.
@@ -260,6 +262,8 @@ In this exercise, we will demonstrate the use of Azure Key Vault in encrypting t
 
     - In the list of project templates, search for Console App (.NET Framework), in the list of results, click Console App (.NET Framework) for C#, and click Next.
 
+<img src="" height="60%" width="60%" alt="console app selection"/>    
+    
     - On the Configure your new project page, specify the following settings (leave other settings with their default values), then click Create:
 
 | Setting	| Value |
