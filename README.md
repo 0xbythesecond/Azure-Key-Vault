@@ -35,9 +35,12 @@ In this exercise, we will deploy an Azure virtual machine (VM) and an Azure SQL 
   <img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/load%20json%20template.png?raw=true" height="60%" width="60%" alt="load json file"/>
   
 - Save the template and configure the deployment settings, such as the subscription, resource group, location, and admin credentials.<br />
+  
+  <img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Create%20Resrouce%20Group%20for%20the%20Custom%20Template.png?raw=true" height="60%" width="60%" alt="create resource group for custom template"/>
+  
 - Review the settings and click Create to start the deployment.<br />
 
-  >**Note**: that the deployment may take around 20-25 minutes to complete. 
+  >**Note**: The deployment may take around 20-25 minutes to complete. 
   
   </details>
   
