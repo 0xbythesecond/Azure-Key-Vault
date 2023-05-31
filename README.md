@@ -27,6 +27,9 @@ In this exercise, we will deploy an Azure virtual machine (VM) and an Azure SQL 
 
 - Sign in to the Azure portal ```https://portal.azure.com``` using an account with Owner or Contributor role in the target subscription. 
 - Search for "Deploy a custom template" in the Azure portal and select the option to build your own template in the editor. <br />
+  
+  <img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Build%20your%20own%20template%20in%20the%20editor.png?raw=true" height="60%" width=60% alt="build a template"/>
+  
 - Load the ARM template file provided in the lab resources. <br />
 - Save the template and configure the deployment settings, such as the subscription, resource group, location, and admin credentials.<br />
 - Review the settings and click Create to start the deployment.<br />
