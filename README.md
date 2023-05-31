@@ -207,9 +207,11 @@ Paste the following code into the query window and click Execute. This will crea
  PRIMARY KEY CLUSTERED ([PatientId] ASC) ON [PRIMARY] );  
 ``` 
     
-<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Execute%20SQL%20Query.png?raw=true" height="60%" width="60%" alt="execute sql query"/>
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Execute%20SQL%20Query.png?raw=true" height="80%" width="80%" alt="execute sql query"/>
     
   After the table is created successfully, in the Object Explorer pane, expand the medical database node, the tables node, right-click the dbo.Patients node, and click Encrypt Columns.
+    
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Encrypt%20Columns%20(dbo.Patients).png?raw=true" height="60%" width="60%" alt="encrypt dbo.patients columns"/>    
 
   >**Note**: This will initiate the Always Encrypted wizard.
 
