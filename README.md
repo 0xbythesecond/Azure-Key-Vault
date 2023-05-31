@@ -148,9 +148,13 @@ In this exercise, we will enable a client application to access the Azure SQL Da
     
  >**Note**: Once the registration is completed, the browser will automatically redirect you to sqlApp blade.
     
-Client Secret  
+Create client Secret  
     
 <img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/New%20Client%20Secret%20(duration).png?raw=true" height="60%" width="60%" alt="create client secret"/>  
+    
+ Client Secret Value
+    
+ <img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/sql%20app%20client%20secret%20value.png?raw=true" height="60%" width="60%" alt="secret value for sql app registration"/>
     
   >**Note**: Record this value. You will need it in the next task.
     
