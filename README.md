@@ -146,11 +146,11 @@ In this exercise, we will enable a client application to access the Azure SQL Da
     
 Create client Secret  
     
-<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/New%20Client%20Secret%20(duration).png?raw=true" height="60%" width="60%" alt="create client secret"/>  
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/New%20Client%20Secret%20(duration).png?raw=true" height="70%" width="70%" alt="create client secret"/>  
     
  Client Secret Value
     
- <img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/sql%20app%20client%20secret%20value.png?raw=true" height="60%" width="60%" alt="secret value for sql app registration"/>
+ <img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/sql%20app%20client%20secret%20value.png?raw=true" height="70%" width="70%" alt="secret value for sql app registration"/>
     
   >**Note**: Record this value. You will need it in the next task.
     
@@ -182,7 +182,7 @@ Set-AZKeyVaultAccessPolicy -VaultName $kvName -ResourceGroupName AZ500LAB10 -Ser
     
 - Retrieve the ADO.NET connection string for the Azure SQL Database.<br />
     
-![placeholder](https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-network-placeholder-png-image_3416659.jpg)    
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/sql%20database%20connection%20string.png?raw=true" height="80%" width="80%" alt="ado.net connection string"/>    
     
   >**Note**: When you use the connection string, make sure to replace the {your_password} placeholder with the password that you configured with the deployment in Exercise 1.
     
