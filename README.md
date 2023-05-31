@@ -142,10 +142,6 @@ In this exercise, we will enable a client application to access the Azure SQL Da
 
 - Register an application in Azure Active Directory (AD) to enable it to access the Azure SQL Database service. Note down the Application ID and create a client secret for the application.<br />
     
-    
-    
-    
-    
  >**Note**: Once the registration is completed, the browser will automatically redirect you to sqlApp blade.
     
 Create client Secret  
