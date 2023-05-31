@@ -67,6 +67,10 @@ In the Azure portal, in the Search resources, services, and docs text box at the
   
 <img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Create%20Access%20Policies%20Settings.png?raw=true" height="60%" width="60%" alt="policies settings"/>  
   
+ Final Create and Review page before finalizing the creation of the policy
+  
+<img src="https://github.com/0xbythesecond/Azure-Key-Vault/blob/main/Review%20&%20Create%20Azure%20Policies%20Final%20Step.png?raw=true" height="60%" width="60%" alt="final review page for policy creation"/>  
+  
   >**Note**: The previous Review + create operation returns to the Access policies page that lists Application, Email, Key Permissions, Secret Permissions, and Certificate Permissions.  
   
   </details>
